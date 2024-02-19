@@ -1,0 +1,44 @@
+{
+  "siswa": [
+    {
+      "id": "a473",
+      "nama": "Aveceena",
+      "kelas": "XI TKJ",
+      "nik": "0897765120723",
+      "alamat": "Bawen",
+      "gender": "Laki-Laki"
+    },
+    {
+      "id": "17e4",
+      "nama": "Rania",
+      "kelas": "X TKJ",
+      "nik": "0896235467734",
+      "alamat": "Semarang",
+      "gender": "Perempuan"
+    },
+    {
+      "id": "ad0b",
+      "nama": "Niscita",
+      "kelas": "XI TKJ",
+      "nik": "0811782692658",
+      "alamat": "Kebumen",
+      "gender": "Perempuan"
+    },
+    {
+      "id": "62cc",
+      "nama": "Lintang",
+      "kelas": "XI TKJ",
+      "nik": "09816892537",
+      "alamat": "Demak",
+      "gender": "Laki-Laki"
+    },
+    {
+      "id": "0c12",
+      "nama": "lucas",
+      "kelas": "XI TKJ",
+      "nik": "43652",
+      "alamat": "semarang",
+      "gender": "Laki-Laki"
+    }
+  ]
+}

@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 992px) {
+  .navbar-toggler.btn-sidebar {
+    color: white !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .navbar-brand img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+/* STYLE UNTUK REPSONSIVE SIDEBAR */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    color: #4a4848 !important;
+    background-color: #C19556;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-color: #ccc;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    /* 4 nilai yang diberikan: offset-x, offset-y, blur-radius, dan color */
+  }
+}
+
+/* STYLE UNTUK REPSONSIVE SIDEBAR */
+
+
+/* Style untuk judul Kontak Kami */
+h2 {
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Style untuk teks yang berwarna gelap */
+strong {
+  color: #333;
+}
+
+/* Style untuk teks alamat dan kontak */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Style untuk nomor telepon dan email */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Hover effect untuk tautan */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style untuk ikon atau gambar jika diperlukan */
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 24px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Responsif jika tampilan di layar kecil */
+@media (max-width: 768px) {
+  .kontak-container {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .left-info,
+  .right-info {
+    flex: none;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* STYLE UNTUK kontak kami */
+
+/* Style pagination */
+/* CSS untuk pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .page-item .page-link {
+  color: #000;
+  border: 1px solid #000;
+  margin: 0 2px;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #003C30;
+  color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #003C30;
+  border-color: #003C30;
+  color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+  pointer-events: none;
+  color: #6c757d;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+/* Style pagination */
+
+/* style dashboard */
+@media (max-width: 768px) {
+  .mt-md-5 {
+    margin-top: 3rem !important;
   }
-  to {
-    transform: rotate(360deg);
+  .text-center {
+    text-align: center !important;
+  }
+  .mb-md-3 {
+    margin-bottom: 1rem !important;
   }
 }
+
+@media (min-width: 768px) {
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+
+/* style dashboard */
+
+/* Style Navbar */
+}
+/* Navbar background color */
+.bg-body-tertiary {
+  background-color: #f0f0f0; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Navbar brand link style */
+.navbar-brand {
+  color: #333; /* Ganti dengan warna yang diinginkan */
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #555; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Navbar link style */
+.nav-link {
+  color: #333; /* Ganti dengan warna yang diinginkan */
+}
+
+.nav-link:hover {
+  color: #555; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Navbar dropdown link style */
+.dropdown-item {
+  color: #333; /* Ganti dengan warna yang diinginkan */
+}
+
+.dropdown-item:hover {
+  background-color: #e9e9e9; /* Ganti dengan warna yang diinginkan */
+  color: #333; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Navbar toggle button color */
+.navbar-toggler-icon {
+  color: #333; /* Ganti dengan warna yang diinginkan */
+}
+
